@@ -3,54 +3,56 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/index.css">
         <title>Home</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
-                <a href="index.html" class="nav-link">Home</a>
-                <a href="page1.html" class="nav-link">Forza Horizon 6</a>
-                <a href="page2.html" class="nav-link">World of Tanks Blitz</a>
-            </nav>
-            <p>Loading… my current gaming lineup. Right now, two very different 
-                games have completely taken over my playtime: Forza Horizon 6, 
-                with its open‑world speed and endless events, and World of Tanks 
-                Blitz, where strategy and quick decision‑making decide every match. 
-                This site gives a quick snapshot of why these games are holding my 
-                attention — from the fast‑paced racing sessions to the tactical tank battles.</p>
-        </header>
-
-        <main>
-            <div>
-                <h1>Forza Horizon 6</h1>
-                <p>Forza Horizon 6 is an open‑world racing game built around exploring 
-                    a huge map, collecting cars, and jumping into events whenever you 
-                    feel like it. The series is known for being more relaxed and playful 
-                    than traditional racing sims, and FH6 continues that style with a mix 
-                    of street races, off‑road routes, and casual challenges scattered 
-                    across the world. It’s the kind of game where you can spend one moment 
-                    tuning a car and the next moment drifting around a mountain road just 
-                    because it looks fun. The focus is on freedom, variety, and driving 
-                    whatever you want, wherever you want.</p>
-                <img src="images/forza.png" alt="Forza Horizon 6 Screenshot">
-            </div>
-            <div>
-                <h1>World of Tanks Blitz</h1>
-                <p>World of Tanks Blitz is a fast, match‑based tank game where positioning 
-                    and timing matter just as much as accuracy. Each battle is a short 7v7 
-                    fight, and you pick from a wide range of tanks that all play differently 
-                    — some are slow and heavily armored, others are quick scouts, and some 
-                    are long‑range snipers. The game rewards learning maps, understanding 
-                    weak spots, and choosing the right moment to push or retreat. It’s easy 
-                    to jump into for a quick match, but there’s enough depth to keep you 
-                    experimenting with different tanks and strategies.</p>
-                <img src="images/tanks.png" alt="World of Tanks Blitz Screenshot">
-            </div>
-        </main>
-
-        <footer>
-            <p>&copy; 2026 My Current Obsession. All rights reserved.</p>
-        </footer>
+        <div class="wrapper">
+            <header>
+                <nav>
+                    <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="page1.html" class="nav-link">Forza Horizon 6</a>
+                    <a href="page2.html" class="nav-link">World of Tanks Blitz</a>
+                </nav>
+                <p id="main-intro">
+                    Loading… my current gaming lineup. Right now, two very different
+                    games have completely taken over my playtime: Forza Horizon 6,
+                    with its open‑world speed and endless events, and World of Tanks
+                    Blitz, where strategy and quick decision‑making decide every match.
+                    This site gives a quick snapshot of why these games are holding my
+                    attention — from the fast‑paced racing sessions to the tactical tank battles.</p>
+            </header>
+            <main>
+                <div id="forza" class="card">
+                    <h1>Forza Horizon 6</h1>
+                    <p>Forza Horizon 6 is an open‑world racing game built around exploring
+                        a huge map, collecting cars, and jumping into events whenever you
+                        feel like it. The series is known for being more relaxed and playful
+                        than traditional racing sims, and FH6 continues that style with a mix
+                        of street races, off‑road routes, and casual challenges scattered
+                        across the world. It’s the kind of game where you can spend one moment
+                        tuning a car and the next moment drifting around a mountain road just
+                        because it looks fun. The focus is on freedom, variety, and driving
+                        whatever you want, wherever you want.</p>
+                    <img src="images/forza.png" alt="Forza Horizon 6 Screenshot">
+                </div>
+                <div id="tanks" class="card">
+                    <h1>World of Tanks Blitz</h1>
+                    <p>World of Tanks Blitz is a fast, match‑based tank game where positioning
+                        and timing matter just as much as accuracy. Each battle is a short 7v7
+                        fight, and you pick from a wide range of tanks that all play differently
+                        — some are slow and heavily armored, others are quick scouts, and some
+                        are long‑range snipers. The game rewards learning maps, understanding
+                        weak spots, and choosing the right moment to push or retreat. It’s easy
+                        to jump into for a quick match, but there’s enough depth to keep you
+                        experimenting with different tanks and strategies.</p>
+                    <img src="images/tanks.png" alt="World of Tanks Blitz Screenshot">
+                </div>
+            </main>
+            <footer>
+                <p>&copy; 2026 My Current Obsession. All rights reserved.</p>
+            </footer>
+        </div>
     </body>
 </html>

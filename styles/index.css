@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MPLUSRounded1c';
+    src: url('../fonts/MPLUSRounded1c.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+p, a {
+    font-family: 'MPLUSRounded1c', sans-serif;
+}
+
+body {
+    padding: 0 100px;
+    background-color: #cccccc;
+}
+
+.wrapper {
+    margin: 0 auto;
+    background-color: #eee;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: #dddddd;
+}
+
+nav img {
+    width: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+}
+
+nav a:hover {
+    font-size: 1.1rem;
+}
+
+#main-intro {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    padding: 100px 20%;
+}
+
+main {
+    padding: 2rem;
+}
+
+.card {
+    margin-bottom: 2rem;
+    padding: 0 20%;
+}
+
+#forza {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
+#forza img {
+    width: 300px;
+    grid-column: 2;
+    grid-row: 1 / 3;
+}
+
+#forza h1, #forza p {
+    grid-column: 1;
+}
+
+#tanks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
+#tanks img {
+    width: 300px;
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+
+#tanks h1, #tanks p {
+    grid-column: 2;
+}
+
+#forza h1, #tanks h1 , #forza img, #tanks img {
+    margin-top: 25px;
+}
+
+footer {
+    text-align: center;
+    background-color: #dddddd;
+    padding: 1rem;
+}
