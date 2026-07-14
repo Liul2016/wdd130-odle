@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MPLUSRounded1c';
+    src: url('../fonts/MPLUSRounded1c.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+p, a {
+    font-family: 'MPLUSRounded1c', sans-serif;
+}
+
+body {
+    padding: 0 100px;
+    background-color: #cccccc;
+}
+
+.wrapper {
+    margin: 0 auto;
+    background-color: #eee;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: #dddddd;
+}
+
+nav img {
+    width: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+}
+
+nav a:hover {
+    font-size: 1.1rem;
+}
+
+#main-intro {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    padding: 100px 20%;
+}
+
+main {
+    padding: 2rem;
+}
+
+.forza {
+    justify-content: center;
+    text-align: center;
+}
+
+.racing {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.racing img {
+    flex: 1;
+    max-width: 50%;
+}
+
+.racing p {
+    flex: 1;
+}
+
+.race {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+}
+
+.race img {
+    flex: 1;
+    max-width: 50%;
+}
+
+.race p {
+    flex: 1;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #dddddd;
+    padding: 1rem;
+}
